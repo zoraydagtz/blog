@@ -1,3 +1,71 @@
+/*************** HEADER CSS, VA ARRIBOTA DE TODO TODO ***************/
+    /* Control para todos los objetos nav */
+nav {
+    position: sticky;
+    top: 1rem;
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    z-index: 1000;     /* Medida de seguridad para que el Header siempre sea el elemento mas alto, arriba de todos los demas */
+}
+    /* Controla el div contenedor de los objetos nav */
+.nav-container {
+    background-color: red;
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /* Div container con todo lo que va a la izquierda: titulo, separador y menu de navegacion */
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+    /* Controla el h2 que funciona como titulo del nav */
+.nav-title {
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+}
+
+    /* Controla el separador | lit nomas eso */
+.separator {
+    color: #fff;
+    font-size: 32px;
+}
+
+    /* Controla la lista que contiene el selector de paginas */
+.nav-menu {
+    display: flex;
+    list-style: none; /* Elimina bullet points de la lista */
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+    /* Controla los items de lista de las paginas NO seleccionadas */
+.nav-link {
+    color: #fff;
+    text-decoration: none; /* Quita la rayita debajo de los urls pq se ve feo */
+    font-size: 24px;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+    /* Controla la imagen del logo en el header */
+.logo-img img {
+    height: 80px;
+    width: 80px;
+}
+/*************** END HEADER CSS ***************/
 /* Estilo del about */
 .tittle {
  text-align: center;
