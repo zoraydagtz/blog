@@ -1,10 +1,4 @@
 /* Estilo del about */
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(255, 255, 255);
-    padding: 0;
-    margin: 0;
-}
 .tittle {
  text-align: center;
  background-color: red;
@@ -110,3 +104,250 @@ gap: 20px;
 }
 
 /* Fin del about*/
+html, body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+     display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 233, 233);
+}    
+
+main {
+    flex: 1;
+}
+
+/* ================= FOOTER CUADRADO ROJO ================= */
+.footer {
+  background-color: #ff0000;   
+  color: #ffffff;               
+  padding: 25px 20px;           
+  border-radius: 15px;         
+  text-align: center;           
+  font-family: Arial, sans-serif;
+  line-height: 1.6;             
+  max-width: 1000px;             
+  margin: 20px auto;             
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+}
+
+/* Título de autores */
+.footer-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Lista de autores */
+.footer-authors {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Información adicional (email, proyecto) */
+.footer p strong {
+  color: #ffffff;         
+}
+
+/* Footer responsivo */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+    padding: 20px 15px;
+  }
+
+  .footer-authors {
+    line-height: 1.4;
+  }
+}
+
+    
+    
+#titleBox {
+    background-image: url(./img/titleBackground.png);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#pageTitle {
+    position: relative;
+    top: 50%;
+    left: 7%;
+    color: antiquewhite;
+    text-shadow:
+        -2px 0 black,
+        0 2px black,
+        2px 0 black,
+        0 -2px black;
+}
+.articleGrid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.articleGrid article {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    min-height: 150px;
+    border: 2px solid white;
+}
+
+#firstArticle {
+    height: 150px;
+    background-image: url(./img/mario.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#articleContent1{
+    background-color: rgba(219, 245, 248);
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#secondArticle {
+    height: 150px;
+    background-image: url(./img/pokemon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#articleContent2{
+    background-color: rgba(219, 245, 248);
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#thirdArticle {
+    height: 150px;
+    background-image: url(./img/zelda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#articleContent3{
+    background-color: rgba(219, 245, 248);
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.articleTitles{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.linkAddress{
+    background-color: red;
+    color: antiquewhite;
+    padding: 3px;
+    border-radius: 3px;
+    background-image: url(./img/titleBackground.png);
+    object-fit: cover;
+}
+
+/*pagina de contacto*/
+.contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(233, 233, 233);
+}
+
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.informacion {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.formulario {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+}
+
+.contact img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.contact h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.contact h2 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact h3 {
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button {
+    background-color: rgb(200, 50, 50);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.formulario button:hover {
+    background-color: rgb(170, 40, 40);
+}

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nombre del Blog - Inicio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="components.js" defer></script>
 </head>
 <body>
 
@@ -20,6 +21,10 @@
 
         <!-- ===== SECCIÓN HERO/BIENVENIDA - PERSONA 2 ===== -->
         <section id="">
+            <div id="titleBox">
+                <h1 id="pageTitle">Welcome to the Kingdom</h1>
+            </div>
+            
             <!-- Título principal del blog (h1) -->
             <!-- Párrafo de introducción -->
             <!-- Imagen principal -->
@@ -28,21 +33,42 @@
 
         <!-- ===== SECCIÓN ARTÍCULOS/CONTENIDO - PERSONA 3 ===== -->
         <section id="">
-            <!-- Artículos del blog -->
-            <!-- Usar h2, h3, p, img -->
+            <div class="articleGrid">
+                <article id="firstArticle">
+                    <h2 class="articleTitles">De carpintero a plomero</h2>
+                    <p id="articleContent1">Antes de convertirse en el héroe del Reino Champiñón, Mario debutó en 1981 en el juego arcade Donkey Kong</p>
+                    <a href="#" class="linkAddress">Read more</a>
+                </article>
+                <article id="secondArticle">
+                    <h2 class="articleTitles">El pasatiempo que inició todo</h2>
+                    <p id="articleContent2">El concepto de Pokémon nació de la obsesión infantil de su creador, Satoshi Tajiri, por coleccionar insectos</p>
+                    <a href="#" class="linkAddress">Read more</a>
+                </article>
+                <article id="thirdArticle">
+                    <h2 class="articleTitles">El "Link" con el jugador</h2>
+                    <p id="articleContent3">Un error común en este mundo es creer que el personaje principal se llama Zelda, pero el héroe es Link.</p>
+                    <a href="#" class="linkAddress">Read more</a>
+                </article>
+            </div>
+
+            <div class="articleIvan">
+                
+            </div>
+
+            <div class="articleJade">
+                
+            </div>
         </section>
         <!-- ===== FIN ARTÍCULOS ===== -->
 
+        <!-- ========== FOOTER - PERSONA 4 ========== -->
+        <!-- Lista de autores -->
+        <!-- Correo falso-->
+        <!-- Nombre del proyecto -->
+        <main-footer></main-footer>
+    <!-- ========== FIN FOOTER ========== -->
     </main>
     <!-- ========== FIN CONTENIDO PRINCIPAL ========== -->
-
-    <!-- ========== FOOTER - PERSONA 4 ========== -->
-    <footer>
-        <!-- Lista de autores -->
-        <!-- Correos falsos -->
-        <!-- Nombre del proyecto -->
-    </footer>
-    <!-- ========== FIN FOOTER ========== -->
 
 </body>
 </html>
