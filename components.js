@@ -4,12 +4,12 @@ class mainNav extends HTMLElement {
             <nav>
                 <div class="nav-container">
                     <div class="nav-left">
-                        <h2 class="nav-title">The Warp Pipe</h2>
+                        <h2 class="nav-title">Hanafuda 1889</h2>
                         <span class="separator">|</span>
                         <ul class="nav-menu">
-                            <li><a href="index.html" class="nav-link">Home</a></li>
-                            <li><a href="about.html"     class="nav-link">About Us</a></li>
-                            <li><a href="contact.html" class="nav-link">Contact</a></li>
+                            <li><a href="index.html" class="nav-link">Inicio</a></li>
+                            <li><a href="about.html"     class="nav-link">Quienes somos?</a></li>
+                            <li><a href="contact.html" class="nav-link">Contacto</a></li>
                         </ul>
                     </div>
                     <div class="logo-img">
