@@ -151,13 +151,13 @@ body {
     margin: 5px 0;
 }
 
-.contact-form label {
+.formulario label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-.contact-form input {
+.formulario input {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -165,7 +165,7 @@ body {
     border-radius: 5px;
 }
 
-.contact-form button {
+.formulario button {
     background-color: rgb(200, 50, 50);
     color: white;
     padding: 10px 30px;
@@ -175,6 +175,6 @@ body {
     width: 100%;
 }
 
-.contact-form button:hover {
+.formulario button:hover {
     background-color: rgb(170, 40, 40);
 }
