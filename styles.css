@@ -1,7 +1,193 @@
+/*************** HEADER CSS, VA ARRIBOTA DE TODO TODO ***************/
+    /* Control para todos los objetos nav */
+nav {
+    position: sticky;
+    top: 1rem;
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    z-index: 1000;     /* Medida de seguridad para que el Header siempre sea el elemento mas alto, arriba de todos los demas */
+}
+    /* Controla el div contenedor de los objetos nav */
+.nav-container {
+    background-color: red;
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /* Div container con todo lo que va a la izquierda: titulo, separador y menu de navegacion */
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+    /* Controla el h2 que funciona como titulo del nav */
+.nav-title {
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+}
+
+    /* Controla el separador | lit nomas eso */
+.separator {
+    color: #fff;
+    font-size: 32px;
+}
+
+    /* Controla la lista que contiene el selector de paginas */
+.nav-menu {
+    display: flex;
+    list-style: none; /* Elimina bullet points de la lista */
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+    /* Controla los items de lista de las paginas NO seleccionadas */
+.nav-link {
+    color: #fff;
+    text-decoration: none; /* Quita la rayita debajo de los urls pq se ve feo */
+    font-size: 24px;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+    /* Controla la imagen del logo en el header */
+.logo-img img {
+    height: 80px;
+    width: 80px;
+}
+/*************** END HEADER CSS ***************/
+/* Estilo del about */
+.tittle {
+ text-align: center;
+ background-color: red;
+ color: white;
+ text-shadow:
+ -2px -2px 0 rgb(136, 43, 43),
+ 2px -2px 0 rgb(136, 43, 43),
+ -2px 2px 0 rgb(136, 43, 43),
+ 2px 2px 0 rgb(136, 43, 43);
+ font-family: 'Luckiest Guy', cursive;
+ display: block;
+ width: 100vw;
+ margin: 0;
+ padding: 10px ;
+}
+.imagenes {
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+
+.imagenes2 img {
+width: 300px;
+}
+.box{
+    background-color: bisque;
+}
+
+.box2{
+    background-color: bisque;
+}
+.subtitulo{
+background-color: orange;
+color: white;
+ font-family: 'Luckiest Guy', cursive;
+ display: block;
+ width: 100vw;
+ margin: 0;
+ padding: 10px ;
+}
+.subtitulo2{
+background-color: green;
+color: white;
+ font-family: 'Luckiest Guy', cursive;
+ display: block;
+ width: 100vw;
+ margin: 0;
+ padding: 10px ;
+
+}
+button{
+background-color: red;
+color: white;
+font-family: 'Luckiest Guy', cursive;
+display: block;
+width: 100vw;
+margin: 0;
+padding: 10px ;
+
+}
+.historia-contenido{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+}
+
+.historia{
+font-size: 30px;  
+line-height: 1.6;
+width: 50%;
+text-align: left;
+margin: 0;
+}
+
+.imagenes{
+width: 50%;
+display: flex;
+justify-content: flex-end;
+gap: 20px;
+}
+
+.mision-contenido{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+}
+
+.misión{
+font-size: 30px;  
+line-height: 1.6;
+width: 50%;
+text-align: left;
+margin: 0;
+}
+
+.imagenes2{
+width: 50%;
+display: flex;
+justify-content: flex-end;
+gap: 20px;
+}
+
+/* Fin del about*/
+html, body {
+    min-height: 100vh;
+    margin: 0;
+}
+
 body {
+     display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(233, 233, 233);
 }    
+
+main {
+    flex: 1;
+}
+
 /* ================= FOOTER CUADRADO ROJO ================= */
 .footer {
   background-color: #ff0000;   
@@ -76,22 +262,77 @@ body {
     gap: 20px;
 }
 .articleGrid article {
-    border: 1px solid #ccc;
-    padding: 1em;
+    border: 1px solid white;
+    padding: 5px;
     border-radius: 5px;
     min-height: 150px;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 #firstArticle {
     height: 150px;
+    background-image: url(./img/mario.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#articleContent1{
+    background-color: rgba(219, 245, 248);
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#secondArticle {
+    height: 150px;
+    background-image: url(./img/pokemon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#articleContent2{
+    background-color: rgba(219, 245, 248);
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#thirdArticle {
+    height: 150px;
+    background-image: url(./img/zelda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#articleContent3{
+    background-color: rgba(219, 245, 248);
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.articleTitles{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.linkAddress{
+    background-color: red;
+    color: antiquewhite;
+    padding: 3px;
+    border-radius: 3px;
     background-image: url(./img/titleBackground.png);
     object-fit: cover;
 }
 
 /*pagina de contacto*/
 .contact-page {
-display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -101,9 +342,27 @@ display: flex;
 
 .contact {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(233, 233, 233);
     padding: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.informacion {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
     text-align: center;
+    width: 300px;
+}
+
+.formulario {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
 }
 
 .contact img {
@@ -113,13 +372,19 @@ display: flex;
 }
 
 .contact h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 15px;
 }
 
 .contact h2 {
     font-size: 1.2rem;
     margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contact h3 {
+    font-size: 1rem;
+    margin-top: 15px;
     margin-bottom: 5px;
 }
 
@@ -162,4 +427,32 @@ display: flex;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button {
+    background-color: rgb(200, 50, 50);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.formulario button:hover {
+    background-color: rgb(170, 40, 40);
 }
