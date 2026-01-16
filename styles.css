@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titleBox {
+    background-image: url(./img/titleBackground.png);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#pageTitle {
+    position: relative;
+    top: 50%;
+    left: 7%;
+    color: antiquewhite;
+    text-shadow:
+        -2px 0 black,
+        0 2px black,
+        2px 0 black,
+        0 -2px black;
+}
+
+.articleGrid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.articleGrid article {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 5px;
+    min-height: 150px;
+    border: 2px solid black;
+}
+
+#firstArticle {
+    height: 150px;
+    background-image: url(./img/titleBackground.png);
+    object-fit: cover;
+}
