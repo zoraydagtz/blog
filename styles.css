@@ -1,81 +1,43 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: rgb(233, 233, 233);
+/* ================= FOOTER CUADRADO ROJO ================= */
+.footer {
+  background-color: #ff0000;   
+  color: #ffffff;               
+  padding: 25px 20px;           
+  border-radius: 15px;         
+  text-align: center;           
+  font-family: Arial, sans-serif;
+  line-height: 1.6;             
+  max-width: 1000px;             
+  margin: 20px auto;             
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
 }
 
-#titleBox {
-    background-image: url(./img/titleBackground.png);
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    border: 2px solid white;
-    border-radius: 10px;
+/* Título de autores */
+.footer-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-#pageTitle {
-    position: relative;
-    top: 50%;
-    left: 7%;
-    color: antiquewhite;
-    text-shadow:
-        -2px 0 black,
-        0 2px black,
-        2px 0 black,
-        0 -2px black;
+/* Lista de autores */
+.footer-authors {
+  font-size: 14px;
+  margin: 10px 0;
 }
 
-.articleGrid {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+/* Información adicional (email, proyecto) */
+.footer p strong {
+  color: #ffffff;         
 }
 
-.articleGrid article {
-    border: 1px solid #ccc;
-    padding: 1em;
-    border-radius: 5px;
-    min-height: 150px;
-    border: 2px solid black;
-}
+/* Footer responsivo */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+    padding: 20px 15px;
+  }
 
-#firstArticle {
-    height: 150px;
-    background-image: url(./img/titleBackground.png);
-    object-fit: cover;
-
-.contact {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(233, 233, 233);
-    padding: 20px;
-    text-align: center;
-}
-
-.contact img {
-    border-radius: 10px;
-    margin-bottom: 10px;
-    width: 150px;
-}
-
-.contact h1 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-.contact h2 {
-    font-size: 1.2rem;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-
-.contact p {
-    margin: 5px 0;
+  .footer-authors {
+    line-height: 1.4;
+  }
 }
