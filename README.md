@@ -1,5 +1,6 @@
 # blog
 Lista de Tareas - LAB El Sitio del Blog
+
 Tarea 1: Configuración del repositorio
 Crear un nuevo repositorio si no existe
 Tarea 2: Menú de navegación funcional
