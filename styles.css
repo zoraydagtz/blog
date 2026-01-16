@@ -1,11 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: rgb(233, 233, 233);
+    
 }
 
 #titleBox {
@@ -51,6 +46,17 @@ body {
     height: 150px;
     background-image: url(./img/titleBackground.png);
     object-fit: cover;
+}
+
+/*pagina de contacto*/
+.contact-page {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(233, 233, 233);
+}
 
 .contact {
     font-family: Arial, Helvetica, sans-serif;
