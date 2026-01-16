@@ -1,3 +1,109 @@
+/* Estilo del about */
+.tittle {
+ text-align: center;
+ background-color: red;
+ color: white;
+ text-shadow:
+ -2px -2px 0 rgb(136, 43, 43),
+ 2px -2px 0 rgb(136, 43, 43),
+ -2px 2px 0 rgb(136, 43, 43),
+ 2px 2px 0 rgb(136, 43, 43);
+ font-family: 'Luckiest Guy', cursive;
+ display: block;
+ width: 100vw;
+ margin: 0;
+ padding: 10px ;
+}
+.imagenes {
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+
+.imagenes2 img {
+width: 300px;
+}
+.box{
+    background-color: bisque;
+}
+
+.box2{
+    background-color: bisque;
+}
+.subtitulo{
+background-color: orange;
+color: white;
+ font-family: 'Luckiest Guy', cursive;
+ display: block;
+ width: 100vw;
+ margin: 0;
+ padding: 10px ;
+}
+.subtitulo2{
+background-color: green;
+color: white;
+ font-family: 'Luckiest Guy', cursive;
+ display: block;
+ width: 100vw;
+ margin: 0;
+ padding: 10px ;
+
+}
+button{
+background-color: red;
+color: white;
+font-family: 'Luckiest Guy', cursive;
+display: block;
+width: 100vw;
+margin: 0;
+padding: 10px ;
+
+}
+.historia-contenido{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+}
+
+.historia{
+font-size: 30px;  
+line-height: 1.6;
+width: 50%;
+text-align: left;
+margin: 0;
+}
+
+.imagenes{
+width: 50%;
+display: flex;
+justify-content: flex-end;
+gap: 20px;
+}
+
+.mision-contenido{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+}
+
+.misión{
+font-size: 30px;  
+line-height: 1.6;
+width: 50%;
+text-align: left;
+margin: 0;
+}
+
+.imagenes2{
+width: 50%;
+display: flex;
+justify-content: flex-end;
+gap: 20px;
+}
+
+/* Fin del about*/
 html, body {
     min-height: 100vh;
     margin: 0;
