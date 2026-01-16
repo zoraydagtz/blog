@@ -1,10 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
+    /*display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin: 0;
+    margin: 0;*/
     background-color: rgb(233, 233, 233);
 }
 
@@ -40,17 +40,71 @@ body {
 }
 
 .articleGrid article {
-    border: 1px solid #ccc;
-    padding: 1em;
+    border: 1px solid white;
+    padding: 5px;
     border-radius: 5px;
     min-height: 150px;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 #firstArticle {
     height: 150px;
-    background-image: url(./img/titleBackground.png);
-    object-fit: cover;
+    background-image: url(./img/mario.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#articleContent1{
+    background-color: rgba(219, 245, 248);
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#secondArticle {
+    height: 150px;
+    background-image: url(./img/pokemon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#articleContent2{
+    background-color: rgba(219, 245, 248);
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#thirdArticle {
+    height: 150px;
+    background-image: url(./img/zelda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#articleContent3{
+    background-color: rgba(219, 245, 248);
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.articleTitles{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.linkAddress{
+    background-color: red;
+    color: antiquewhite;
+    padding: 3px;
+    border-radius: 3px;
+}
 
 .contact {
     font-family: Arial, Helvetica, sans-serif;
