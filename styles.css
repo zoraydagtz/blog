@@ -60,17 +60,6 @@ nav {
     background-color: #555;
 }
 
-    /* Controla el item de lista de la pagina seleccionada */
-.nav-link-active {
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none; /* Quita la rayita debajo de los urls pq se ve feo */
-    font-size: 24px;
-    padding: 8px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
     /* Controla la imagen del logo en el header */
 .logo-img img {
     height: 80px;
