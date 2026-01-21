@@ -233,19 +233,8 @@ main {
 }
 
     
-    
-#titleBox {
-    background-image: url(./img/titleBackground.png);
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: 2px solid white;
-    border-radius: 10px;
-}
 #pageTitle {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 7%;
     color: antiquewhite;
