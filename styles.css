@@ -411,33 +411,8 @@ main {
   border-radius: 5px;
 
 }
-#oled-model {
-   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
-    url("img/nintengo2.jpeg"); ;
-    padding: 15px;
-  border: 2px solid black;
-  border-radius: 5px;
-}
-#En1 {
-    background-color: rgb(110, 163, 116);
-    font-size: 14px;
-    color: #111111;
-    text-align: center;
-}   
-#om1 {
-    background-color: rgb(225, 171, 151);
-    font-size: 14px;
-    color: #111111;
-    text-align: center;
-}
-.articleIvan {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-/*
+
+
 .formulario label {
     display: block;
     margin-bottom: 5px;
