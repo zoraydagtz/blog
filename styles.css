@@ -9,7 +9,7 @@ nav {
 }
     /* Controla el div contenedor de los objetos nav */
 .nav-container {
-    background-color: red;
+    background-color: #DD2020
     padding: 16px 32px;
     border-radius: 8px;
     margin: 0 auto;
@@ -69,7 +69,7 @@ nav {
 /* Estilo del about */
 .tittle {
  text-align: center;
- background-color: red;
+ background-color: #DD2020;
  color: white;
  text-shadow:
  -2px -2px 0 rgb(136, 43, 43),
@@ -81,15 +81,6 @@ nav {
  width: 100vw;
  margin: 0;
  padding: 10px ;
-}
-.imagenes {
-display: flex;
-gap: 20px;
-justify-content: center;
-}
-
-.imagenes2 img {
-width: 300px;
 }
 .box{
     background-color: bisque;
@@ -115,10 +106,10 @@ color: white;
  width: 100vw;
  margin: 0;
  padding: 10px ;
-
 }
+
 button{
-background-color: red;
+background-color: #DD2020;
 color: white;
 font-family: 'Luckiest Guy', cursive;
 display: block;
@@ -137,8 +128,7 @@ gap: 30px;
 .historia{
 font-size: 30px;  
 line-height: 1.6;
-width: 50%;
-text-align: left;
+text-align: center;
 margin: 0;
 }
 
@@ -159,10 +149,10 @@ gap: 30px;
 .misión{
 font-size: 30px;  
 line-height: 1.6;
-width: 50%;
-text-align: left;
+text-align: center;
 margin: 0;
 }
+
 
 .imagenes2{
 width: 50%;
@@ -188,8 +178,8 @@ main {
     flex: 1;
 }
 
-/* ================= FOOTER CUADRADO ROJO ================= */
-.footer {
+/** ================= FOOTER CUADRADO ROJO =================
+/*.footer {
   background-color: #ff0000;   
   color: #ffffff;               
   padding: 25px 20px;           
@@ -200,27 +190,27 @@ main {
   max-width: 1000px;             
   margin: 20px auto;             
   box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
-}
+}*/
 
-/* Título de autores */
-.footer-title {
+/* Título de autores 
+/*.footer-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
-}
+}*/
 
-/* Lista de autores */
+/* Lista de autores 
 .footer-authors {
   font-size: 14px;
   margin: 10px 0;
-}
+}*/
 
-/* Información adicional (email, proyecto) */
+/* Información adicional (email, proyecto) 
 .footer p strong {
   color: #ffffff;         
-}
+}*/
 
-/* Footer responsivo */
+/* Footer responsivo 
 @media (max-width: 768px) {
   .footer {
     font-size: 14px;
@@ -230,22 +220,11 @@ main {
   .footer-authors {
     line-height: 1.4;
   }
-}
+}*/
 
     
-    
-#titleBox {
-    background-image: url(./img/titleBackground.png);
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: 2px solid white;
-    border-radius: 10px;
-}
 #pageTitle {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 7%;
     color: antiquewhite;
@@ -365,7 +344,7 @@ main {
   text-decoration: underline;
 }
 
-/*pagina de contacto*/
+/*pagina de contacto
 .contact-page {
     display: flex;
     justify-content: center;
@@ -373,7 +352,7 @@ main {
     min-height: 100vh;
     margin: 0;
     background-color: rgb(233, 233, 233);
-}
+}*/
 
 .contact {
     font-family: Arial, Helvetica, sans-serif;
