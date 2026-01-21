@@ -320,41 +320,14 @@ main {
 }
 
 /*Artículos Jade*/
-.featured-articles {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  max-width: 1000px;
-  margin: 30px auto;
+
+.custom-card {
+  background-color: #DD2020;
+  color: #ffffff;
+  border-color: #00C3E3;
 }
 
-.featured-article {
-  border: 2px solid #ad193b;
-  border-radius: 8px;
-  overflow: hidden;
-  background-color: #f7fbe4;
-}
-
-.featured-image {
-  height: 220px;
-}
-
-.featured-image img {    
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.featured-content {
-  padding: 10px;
-}
-
-.featured-content a {
-  color: blue;
-  text-decoration: underline;
-}
-
-/*pagina de contacto*/
+/*pagina de contacto
 .contact-page {
     display: flex;
     justify-content: center;
@@ -416,6 +389,7 @@ main {
     margin: 5px 0;
 
 }
+    */
 
 #Environment {
    background-image:
@@ -426,32 +400,7 @@ main {
   border-radius: 5px;
 
 }
-#oled-model {
-   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
-    url("img/nintengo2.jpeg"); ;
-    padding: 15px;
-  border: 2px solid black;
-  border-radius: 5px;
-}
-#En1 {
-    background-color: rgb(110, 163, 116);
-    font-size: 14px;
-    color: #111111;
-    text-align: center;
-}   
-#om1 {
-    background-color: rgb(225, 171, 151);
-    font-size: 14px;
-    color: #111111;
-    text-align: center;
-}
-.articleIvan {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
+
 
 .formulario label {
     display: block;
@@ -479,4 +428,4 @@ main {
 
 .formulario button:hover {
     background-color: rgb(170, 40, 40);
-}
+} */
