@@ -233,19 +233,8 @@ main {
 }
 
     
-    
-#titleBox {
-    background-image: url(./img/titleBackground.png);
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: 2px solid white;
-    border-radius: 10px;
-}
 #pageTitle {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 7%;
     color: antiquewhite;
@@ -365,7 +354,7 @@ main {
   text-decoration: underline;
 }
 
-/*pagina de contacto
+/*pagina de contacto*/
 .contact-page {
     display: flex;
     justify-content: center;
@@ -427,7 +416,6 @@ main {
     margin: 5px 0;
 
 }
-    */
 
 #Environment {
    background-image:
@@ -464,7 +452,7 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-/*
+
 .formulario label {
     display: block;
     margin-bottom: 5px;
@@ -491,4 +479,4 @@ main {
 
 .formulario button:hover {
     background-color: rgb(170, 40, 40);
-} */
+}
